@@ -10,8 +10,8 @@ const Header = () => {
     <>
       <header>
         <div className='container flex'>
-          <div className='logo'>
-            <img src='./images/logo.png' alt='' />
+          <div className='title'>
+              <h1>swagruham</h1>
           </div>
           <div className='nav'>
             <ul className={navList ? "small" : "flex"}>
@@ -40,4 +40,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

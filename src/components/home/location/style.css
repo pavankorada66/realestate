@@ -4,6 +4,7 @@
 }
 .location img {
   border-radius: 5px;
+  opacity: 0.85;
 }
 .location .overlay {
   position: absolute;
@@ -15,8 +16,9 @@
   flex-direction: column;
   height: 250px;
   width: 100%;
-  color: #fff;
+  color:red;
   z-index: 222;
+  
 }
 .location .overlay::after {
   content: "";
@@ -25,19 +27,21 @@
   left: 0;
   width: 340px;
   height: 210px;
-  background: rgb(15 28 47 / 30%);
   z-index: -1;
   margin: 20px;
   border-radius: 5px;
+  
 }
 .location h5 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
 }
 .location label {
-  color: #fff;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
   margin-right: 20px;
-  opacity: 0.8;
+  opacity: 1;
 }
 @media screen and (max-width: 800px) {
   .location .overlay::after {

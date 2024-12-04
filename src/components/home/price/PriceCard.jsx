@@ -12,8 +12,8 @@ const PriceCard = () => {
             </div>
             <h3>{item.plan}</h3>
             <h1>
-              <span>$</span>
-              {item.price}
+               {item.price}
+              <span>Rs</span> 
             </h1>
             <p>{item.ptext}</p>
 
